@@ -8,6 +8,8 @@
     padding: 10px 20px;
     height: 85.79px;
     /* width: 1919.27px; */
+    width: 100%; /* Ensure header takes full width by default */
+    box-sizing: border-box;
     
 
     background-color: #fff; /* Adjust background color as needed */
@@ -63,4 +65,50 @@
    
 }
 
+@media (max-width: 740px){
+    .logo1 {
+        height: 20px;
+        width: 146px;
+        /* margin-left: 100px; */
+        padding-top: 25.37px;
+        padding-left: 10px;
+        background-color: #fff;
+    }
 
+    .logo2 {
+        height: 27.28px;
+        width: 49.59px;
+        padding-top: 20.29px;
+        /* padding-left: -506px; */
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+
+    .get-info-button {
+        background-color: #292967; /* Adjust button color as needed */
+        color: white;
+        border: none;
+        /* padding: 10px 20px; */
+        border-radius: 18.64px;
+        cursor: pointer;
+        font-size: 14px;
+        width: 88.44px;
+        height: 36.16px;
+        margin-top: 15.81px;
+        margin-right: 100px;
+        text-wrap: nowrap;
+        
+    }
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        width: 390px;
+        padding: 10px 20px;
+        height: 65.79px;
+        
+    }
+}

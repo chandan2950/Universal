@@ -5,6 +5,7 @@ import Address from './Components/Address';
 import Carousel from './Components/carousal';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
+
 import image1 from './Components/Resources/image1.jpeg';
 import image2 from './Components/Resources/image2.jpeg';
 import image3 from  './Components/Resources/image3.jpeg';
@@ -14,6 +15,9 @@ import image6 from './Components/Resources/image6.jpeg'
 import image7 from './Components/Resources/image4.jpeg';
 import image8 from './Components/Resources/image5.jpeg';
 import image9 from './Components/Resources/image6.jpeg'
+import Programs from './Components/OurProgram';
+
+
 
 
 function App() {
@@ -34,9 +38,12 @@ function App() {
 
   return (
     <div className="app">
-        <Header /> 
-        <AboutUhs/> 
+        <Header />
+        
+        
+        <AboutUhs/>
         <AboutPace/>
+        <Programs/>   
         <Carousel items={items}/>
         <Address/>
         <Footer/>

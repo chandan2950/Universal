@@ -40,14 +40,14 @@
   height: 24px;
 }
   
-  .dots {
+  /* .dots {
     position: absolute;
-  top: 1840px; /* Position dots below the cards */
-  left: 50%;
+  top: 2840px; /* Position dots below the cards */
+  /* left: 50%;
   transform: translateX(-50%); /* Center dots horizontally */
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  }
+  } */ */ */
   
   .dot {
     width: 10px;
